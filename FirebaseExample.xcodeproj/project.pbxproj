@@ -14,6 +14,7 @@
 		AD43A14B28ED1596003DCDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD43A14928ED1596003DCDB4 /* Main.storyboard */; };
 		AD43A14D28ED1597003DCDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD43A14C28ED1597003DCDB4 /* Assets.xcassets */; };
 		AD43A15028ED1597003DCDB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD43A14E28ED1597003DCDB4 /* LaunchScreen.storyboard */; };
+		AD5C333028FCDF0F00B6DB39 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5C332F28FCDF0F00B6DB39 /* GoogleService-Info.plist */; };
 		ADA3170828F79A0700000BA3 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA3170728F79A0700000BA3 /* Todo.swift */; };
 		ADA3171028F79B0900000BA3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ADA3170F28F79B0900000BA3 /* Realm */; };
 		ADA3171228F79B0900000BA3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADA3171128F79B0900000BA3 /* RealmSwift */; };
@@ -33,6 +34,7 @@
 		AD43A14C28ED1597003DCDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD43A14F28ED1597003DCDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD43A15128ED1597003DCDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5C332F28FCDF0F00B6DB39 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADA3170728F79A0700000BA3 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		ADA3171328F79BAD00000BA3 /* RealmMigrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigrationViewController.swift; sourceTree = "<group>"; };
 		ADC927FF28F4F23F00E93D1F /* FirebaseExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseExample.entitlements; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		AD43A14228ED1596003DCDB4 /* FirebaseExample */ = {
 			isa = PBXGroup;
 			children = (
+				AD5C332F28FCDF0F00B6DB39 /* GoogleService-Info.plist */,
 				ADC927FF28F4F23F00E93D1F /* FirebaseExample.entitlements */,
 				AD43A14328ED1596003DCDB4 /* AppDelegate.swift */,
 				AD43A14528ED1596003DCDB4 /* SceneDelegate.swift */,
@@ -160,6 +163,7 @@
 			files = (
 				AD19CB1928F8E5C500246C6D /* .gitignore in Resources */,
 				AD43A15028ED1597003DCDB4 /* LaunchScreen.storyboard in Resources */,
+				AD5C333028FCDF0F00B6DB39 /* GoogleService-Info.plist in Resources */,
 				AD43A14D28ED1597003DCDB4 /* Assets.xcassets in Resources */,
 				AD43A14B28ED1596003DCDB4 /* Main.storyboard in Resources */,
 			);
