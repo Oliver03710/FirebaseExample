@@ -22,6 +22,7 @@
 		ADBDE60928F56E0700745991 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = ADBDE60828F56E0700745991 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		ADBDE60B28F56E0700745991 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = ADBDE60A28F56E0700745991 /* FirebaseCrashlytics */; };
 		ADBDE60D28F56E0700745991 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = ADBDE60C28F56E0700745991 /* FirebaseMessaging */; };
+		ADDBAB2128FE4DCC00E38920 /* SampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDBAB2028FE4DCC00E38920 /* SampleCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		ADA3170728F79A0700000BA3 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		ADA3171328F79BAD00000BA3 /* RealmMigrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigrationViewController.swift; sourceTree = "<group>"; };
 		ADC927FF28F4F23F00E93D1F /* FirebaseExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseExample.entitlements; sourceTree = "<group>"; };
+		ADDBAB2028FE4DCC00E38920 /* SampleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				ADA3170728F79A0700000BA3 /* Todo.swift */,
 				AD43A14728ED1596003DCDB4 /* ViewController.swift */,
 				ADA3171328F79BAD00000BA3 /* RealmMigrationViewController.swift */,
+				ADDBAB2028FE4DCC00E38920 /* SampleCollectionViewController.swift */,
 				AD43A14928ED1596003DCDB4 /* Main.storyboard */,
 				AD43A14C28ED1597003DCDB4 /* Assets.xcassets */,
 				AD43A14E28ED1597003DCDB4 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 				AD43A14428ED1596003DCDB4 /* AppDelegate.swift in Sources */,
 				ADA3171428F79BAD00000BA3 /* RealmMigrationViewController.swift in Sources */,
 				AD43A14628ED1596003DCDB4 /* SceneDelegate.swift in Sources */,
+				ADDBAB2128FE4DCC00E38920 /* SampleCollectionViewController.swift in Sources */,
 				ADA3170828F79A0700000BA3 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
